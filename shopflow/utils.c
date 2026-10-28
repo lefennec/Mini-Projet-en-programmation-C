@@ -1,16 +1,4 @@
-/* ==========================================================================
- * utils.c - Saisie securisee, validation des donnees, affichage
- * --------------------------------------------------------------------------
- * Notions du cours utilisees : fonctions (CM7), passage par adresse (CM7),
- * tableaux et chaines (CM5), fgets + strcspn (CM5), <string.h> (CM7),
- * boucles et conditions (CM4).
- *
- * IDEE GENERALE : on ne lit JAMAIS un nombre directement avec scanf("%d").
- * Si l'utilisateur tape "abc", scanf laisse "abc" dans le clavier et le
- * programme boucle a l'infini. A la place :
- *   1. on lit toute la ligne avec fgets (texte),
- *   2. on verifie / convertit nous-memes le texte en nombre.
- * ========================================================================== */
+
 
 #include <stdio.h>
 #include <string.h>

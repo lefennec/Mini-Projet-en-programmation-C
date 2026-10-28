@@ -5,10 +5,7 @@
 #ifndef UTILS_H
 #define UTILS_H
 
-/* ----- Lecture d'une ligne au clavier ------------------------------------
- * Retourne :  1 = ligne lue correctement
- *             0 = fin de l'entree (plus rien a lire : Ctrl+D / fin de fichier)
- *            -1 = ligne trop longue pour le tableau (elle est ignoree)      */
+
 int lireLigne(char *dest, int taille);
 
 /* ----- Conversion texte -> nombre (retourne 1 si OK, 0 sinon) ------------
